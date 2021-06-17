@@ -21,3 +21,17 @@ body {
     background-color: yellow;
     color: white;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+figcaption {
+    background-color: pink;
+    color: whitesmoke; 
+    font-style: italic;
+    text-align: center;
+}

@@ -6,13 +6,33 @@
     </head>
     <body>
         <div class="topnav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a class="active" href=#contact>Contact</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
         </div>
-        <h1>Contact Page</h1>
-        <p>Name: Elisa Shapiro</p>
+        <br><h1>Contact Page</h1>
+        <p>Elisa Shapiro</p>
         <a href = "mailto: elisashapiro@gmail.com">Email me here</a>
-        <a href="https://www.linkedin.com/in/elisa-shapiro-b0475216a" target="_blank">Check out my LinkedIn</a>
+        <br><a href="https://www.linkedin.com/in/elisa-shapiro-b0475216a" target="_blank">Check out my LinkedIn</a>
+        <br><p>Or you can submit a question below!</p>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name..">
+            
+              <br><label for="contact">How Did You Find Me?</label>
+              <select id="contact" name="contact">
+                <option value="flatiron">Flatiron</option>
+                <option value="internet">The Internet</option>
+                <option value="other">Other (specify below)</option>
+              </select>
+          
+              <br><label for="subject">Subject</label>
+              <br><textarea id="subject" name="subject" placeholder="Write something.." style="height:400px" style="width: 400px"></textarea>
+              <br><input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </body>
 </html>
