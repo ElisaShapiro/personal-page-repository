@@ -35,3 +35,15 @@ figcaption {
     font-style: italic;
     text-align: center;
 }
+
+.interests {
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+address {
+    display: block;
+    font-style: italic;
+    font-size: 10px;
+    background-color: white;
+}
